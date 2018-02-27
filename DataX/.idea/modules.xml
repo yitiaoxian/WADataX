@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adswriter/adswriter.iml" filepath="$PROJECT_DIR$/adswriter/adswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-all.iml" filepath="$PROJECT_DIR$/datax-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/datax-common.iml" filepath="$PROJECT_DIR$/common/datax-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/datax-core.iml" filepath="$PROJECT_DIR$/core/datax-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transformer/datax-transformer.iml" filepath="$PROJECT_DIR$/transformer/datax-transformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drdsreader/drdsreader.iml" filepath="$PROJECT_DIR$/drdsreader/drdsreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drdswriter/drdswriter.iml" filepath="$PROJECT_DIR$/drdswriter/drdswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearchwriter/elasticsearchwriter.iml" filepath="$PROJECT_DIR$/elasticsearchwriter/elasticsearchwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftpreader/ftpreader.iml" filepath="$PROJECT_DIR$/ftpreader/ftpreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftpwriter/ftpwriter.iml" filepath="$PROJECT_DIR$/ftpwriter/ftpwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase094xreader/hbase094xreader.iml" filepath="$PROJECT_DIR$/hbase094xreader/hbase094xreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase094xwriter/hbase094xwriter.iml" filepath="$PROJECT_DIR$/hbase094xwriter/hbase094xwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase11xreader/hbase11xreader.iml" filepath="$PROJECT_DIR$/hbase11xreader/hbase11xreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase11xsqlwriter/hbase11xsqlwriter.iml" filepath="$PROJECT_DIR$/hbase11xsqlwriter/hbase11xsqlwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase11xwriter/hbase11xwriter.iml" filepath="$PROJECT_DIR$/hbase11xwriter/hbase11xwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfsreader/hdfsreader.iml" filepath="$PROJECT_DIR$/hdfsreader/hdfsreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfswriter/hdfswriter.iml" filepath="$PROJECT_DIR$/hdfswriter/hdfswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodbreader/mongodbreader.iml" filepath="$PROJECT_DIR$/mongodbreader/mongodbreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodbwriter/mongodbwriter.iml" filepath="$PROJECT_DIR$/mongodbwriter/mongodbwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysqlreader/mysqlreader.iml" filepath="$PROJECT_DIR$/mysqlreader/mysqlreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysqlwriter/mysqlwriter.iml" filepath="$PROJECT_DIR$/mysqlwriter/mysqlwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocswriter/ocswriter.iml" filepath="$PROJECT_DIR$/ocswriter/ocswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odpsreader/odpsreader.iml" filepath="$PROJECT_DIR$/odpsreader/odpsreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odpswriter/odpswriter.iml" filepath="$PROJECT_DIR$/odpswriter/odpswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oraclereader/oraclereader.iml" filepath="$PROJECT_DIR$/oraclereader/oraclereader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oraclewriter/oraclewriter.iml" filepath="$PROJECT_DIR$/oraclewriter/oraclewriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ossreader/ossreader.iml" filepath="$PROJECT_DIR$/ossreader/ossreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osswriter/osswriter.iml" filepath="$PROJECT_DIR$/osswriter/osswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otsreader/otsreader.iml" filepath="$PROJECT_DIR$/otsreader/otsreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otsstreamreader/otsstreamreader.iml" filepath="$PROJECT_DIR$/otsstreamreader/otsstreamreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otswriter/otswriter.iml" filepath="$PROJECT_DIR$/otswriter/otswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-rdbms-util/plugin-rdbms-util.iml" filepath="$PROJECT_DIR$/plugin-rdbms-util/plugin-rdbms-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-unstructured-storage-util/plugin-unstructured-storage-util.iml" filepath="$PROJECT_DIR$/plugin-unstructured-storage-util/plugin-unstructured-storage-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postgresqlreader/postgresqlreader.iml" filepath="$PROJECT_DIR$/postgresqlreader/postgresqlreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postgresqlwriter/postgresqlwriter.iml" filepath="$PROJECT_DIR$/postgresqlwriter/postgresqlwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdbmsreader/rdbmsreader.iml" filepath="$PROJECT_DIR$/rdbmsreader/rdbmsreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdbmswriter/rdbmswriter.iml" filepath="$PROJECT_DIR$/rdbmswriter/rdbmswriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlserverreader/sqlserverreader.iml" filepath="$PROJECT_DIR$/sqlserverreader/sqlserverreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlserverwriter/sqlserverwriter.iml" filepath="$PROJECT_DIR$/sqlserverwriter/sqlserverwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streamreader/streamreader.iml" filepath="$PROJECT_DIR$/streamreader/streamreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streamwriter/streamwriter.iml" filepath="$PROJECT_DIR$/streamwriter/streamwriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txtfilereader/txtfilereader.iml" filepath="$PROJECT_DIR$/txtfilereader/txtfilereader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txtfilewriter/txtfilewriter.iml" filepath="$PROJECT_DIR$/txtfilewriter/txtfilewriter.iml" />
+    </modules>
+  </component>
+</project>

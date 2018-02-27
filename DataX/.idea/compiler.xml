@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adswriter" />
+        <module name="datax-common" />
+        <module name="datax-core" />
+        <module name="datax-transformer" />
+        <module name="drdsreader" />
+        <module name="drdswriter" />
+        <module name="elasticsearchwriter" />
+        <module name="ftpreader" />
+        <module name="ftpwriter" />
+        <module name="hbase094xreader" />
+        <module name="hbase094xwriter" />
+        <module name="hbase11xreader" />
+        <module name="hbase11xsqlwriter" />
+        <module name="hbase11xwriter" />
+        <module name="hdfsreader" />
+        <module name="hdfswriter" />
+        <module name="mongodbreader" />
+        <module name="mongodbwriter" />
+        <module name="mysqlreader" />
+        <module name="mysqlwriter" />
+        <module name="ocswriter" />
+        <module name="odpsreader" />
+        <module name="odpswriter" />
+        <module name="oraclereader" />
+        <module name="oraclewriter" />
+        <module name="ossreader" />
+        <module name="osswriter" />
+        <module name="otsreader" />
+        <module name="otsstreamreader" />
+        <module name="otswriter" />
+        <module name="plugin-rdbms-util" />
+        <module name="plugin-unstructured-storage-util" />
+        <module name="postgresqlreader" />
+        <module name="postgresqlwriter" />
+        <module name="rdbmsreader" />
+        <module name="rdbmswriter" />
+        <module name="sqlserverreader" />
+        <module name="sqlserverwriter" />
+        <module name="streamreader" />
+        <module name="streamwriter" />
+        <module name="txtfilereader" />
+        <module name="txtfilewriter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adswriter" target="1.6" />
+      <module name="datax-all" target="1.6" />
+      <module name="datax-common" target="1.6" />
+      <module name="datax-core" target="1.6" />
+      <module name="datax-transformer" target="1.6" />
+      <module name="drdsreader" target="1.6" />
+      <module name="drdswriter" target="1.6" />
+      <module name="elasticsearchwriter" target="1.6" />
+      <module name="ftpreader" target="1.6" />
+      <module name="ftpwriter" target="1.6" />
+      <module name="hbase094xreader" target="1.6" />
+      <module name="hbase094xwriter" target="1.6" />
+      <module name="hbase11xreader" target="1.6" />
+      <module name="hbase11xsqlwriter" target="1.6" />
+      <module name="hbase11xwriter" target="1.6" />
+      <module name="hdfsreader" target="1.6" />
+      <module name="hdfswriter" target="1.6" />
+      <module name="mongodbreader" target="1.6" />
+      <module name="mongodbwriter" target="1.6" />
+      <module name="mysqlreader" target="1.6" />
+      <module name="mysqlwriter" target="1.6" />
+      <module name="ocswriter" target="1.6" />
+      <module name="odpsreader" target="1.6" />
+      <module name="odpswriter" target="1.6" />
+      <module name="oraclereader" target="1.6" />
+      <module name="oraclewriter" target="1.6" />
+      <module name="ossreader" target="1.6" />
+      <module name="osswriter" target="1.6" />
+      <module name="otsreader" target="1.6" />
+      <module name="otsstreamreader" target="1.6" />
+      <module name="otswriter" target="1.6" />
+      <module name="plugin-rdbms-util" target="1.6" />
+      <module name="plugin-unstructured-storage-util" target="1.6" />
+      <module name="postgresqlreader" target="1.6" />
+      <module name="postgresqlwriter" target="1.6" />
+      <module name="rdbmsreader" target="1.6" />
+      <module name="rdbmswriter" target="1.6" />
+      <module name="sqlserverreader" target="1.6" />
+      <module name="sqlserverwriter" target="1.6" />
+      <module name="streamreader" target="1.6" />
+      <module name="streamwriter" target="1.6" />
+      <module name="txtfilereader" target="1.6" />
+      <module name="txtfilewriter" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -28,11 +28,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--Other 依赖 -->
+        <!-- https://mvnrepository.com/artifact/com.aliyun.openservices/tablestore-streamclient -->
         <dependency>
             <groupId>com.aliyun.openservices</groupId>
             <artifactId>tablestore-streamclient</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

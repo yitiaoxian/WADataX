@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DataX/rdbmswriter/src/main/libs/Dm7JdbcDriver16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DataX/rdbmswriter/src/main/libs/edb-jdbc16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DataX/rdbmswriter/src/main/libs/db2jcc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DataX/rdbmswriter/src/main/libs/jconn3-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
