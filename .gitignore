@@ -41,4 +41,5 @@ DataX/streamwriter/target/*
 DataX/transformer/target/*
 DataX/txtfilereader/target/*
 DataX/txtfilewriter/target/*
+DataX/target/*
 
