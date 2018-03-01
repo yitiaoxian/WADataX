@@ -92,9 +92,15 @@ public class Configuration {
 			return Configuration.from(IOUtils
 					.toString(new FileInputStream(file)));
 		} catch (FileNotFoundException e) {
+			/**
+			 * 抛出文件未找到异常
+			 */
 			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
 					String.format("配置信息错误，您提供的配置文件[%s]不存在. 请检查您的配置文件.", file.getAbsolutePath()));
 		} catch (IOException e) {
+			/**
+			 * 抛出的IO异常，linux下的配置文件的权限
+			 */
 			throw DataXException.asDataXException(
 					CommonErrorCode.CONFIG_ERROR,
 					String.format("配置信息错误. 您提供配置文件[%s]读取失败，错误原因: %s. 请检查您的配置文件的权限设置.",
@@ -107,6 +113,9 @@ public class Configuration {
 	 */
 	public static Configuration from(InputStream is) {
 		try {
+			/**
+			 * 将json输入流对象转换为string字符串
+			 */
 			return Configuration.from(IOUtils.toString(is));
 		} catch (IOException e) {
 			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
@@ -131,13 +140,23 @@ public class Configuration {
 	public String getNecessaryValue(String key, ErrorCode errorCode) {
 		String value = this.getString(key, null);
 		if (StringUtils.isBlank(value)) {
+			/**
+			 * 必须的字段参数
+			 */
 			throw DataXException.asDataXException(errorCode,
 					String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
 		}
 
 		return value;
 	}
-	
+
+	/**
+	 *
+	 * @param key key
+	 * @param defaultValue 默认值
+	 * @param errorCode 错误码
+	 * @return 返回获取到的value值
+	 */
 	public String getUnnecessaryValue(String key,String defaultValue,ErrorCode errorCode) {
 		String value = this.getString(key, defaultValue);
 		if (StringUtils.isBlank(value)) {
@@ -204,6 +223,11 @@ public class Configuration {
 	 * 根据用户提供的json path，寻址String对象
 	 * 
 	 * @return String对象，如果path不存在或者String不存在，返回null
+	 */
+	/**
+	 * 返回json 路径，并将其string值返回
+	 * @param path json
+	 * @return 返回path对应的值
 	 */
 	public String getString(final String path) {
 		Object string = this.get(path);
@@ -573,7 +597,7 @@ public class Configuration {
 	}
 
 	/**
-	 * 格式化Configuration输出
+	 * 格式化Configuration输出（美化？）
 	 */
 	public String beautify() {
 		return JSON.toJSONString(this.getInternal(),
@@ -688,7 +712,15 @@ public class Configuration {
 
 	/**
 	 * 拷贝当前Configuration，注意，这里使用了深拷贝，避免冲突
+	 *
+	 * noted by xiao
+	 * 深拷贝是啥啊？
+	 * 浅拷贝：编译系统在我们没有自己定义拷贝构造函数时，会在拷贝对象时调用默认拷贝构造函数，进行的是浅拷贝！
+	 * 即对指针name拷贝后会出现两个指针指向同一个内存空间。
+	 * 深拷贝：在对含有指针成员的对象进行拷贝时，必须要自己定义拷贝构造函数，使拷贝后的对象指针成员有自己的内存空间，
+	 * 即进行深拷贝，这样就避免了内存泄漏发生。
 	 */
+	@Override
 	public Configuration clone() {
 		Configuration config = Configuration
 				.from(Configuration.toJSONString(this.getInternal()));
@@ -764,6 +796,11 @@ public class Configuration {
 		return this.root;
 	}
 
+	/**
+	 * 根据path参数设置对象
+	 * @param path 路径参数
+	 * @param object 要设置的对象
+	 */
 	private void setObject(final String path, final Object object) {
 		Object newRoot = setObjectRecursive(this.root, split2List(path), 0,
 				object);
@@ -783,7 +820,9 @@ public class Configuration {
 		if (object instanceof Configuration) {
 			return extractFromConfiguration(object);
 		}
-
+		/**
+		 * 对象object是否为List
+		 */
 		if (object instanceof List) {
 			List<Object> result = new ArrayList<Object>();
 			for (final Object each : (List<Object>) object) {
@@ -791,7 +830,9 @@ public class Configuration {
 			}
 			return result;
 		}
-
+		/**
+		 * 对象object是否为map的实例
+		 */
 		if (object instanceof Map) {
 			Map<String, Object> result = new HashMap<String, Object>();
 			for (final String key : ((Map<String, Object>) object).keySet()) {
@@ -805,6 +846,11 @@ public class Configuration {
 		return object;
 	}
 
+	/**
+	 *
+	 * @param object 要抽取的对象参数
+	 * @return 返回匹配中的对象值
+	 */
 	private Object extractFromConfiguration(final Object object) {
 		if (object instanceof Configuration) {
 			return ((Configuration) object).getInternal();
@@ -813,6 +859,12 @@ public class Configuration {
 		return object;
 	}
 
+	/**
+	 *
+	 * @param paths 路径参数
+	 * @param object 对象
+	 * @return 返回构造的对象
+	 */
 	Object buildObject(final List<String> paths, final Object object) {
 		if (null == paths) {
 			throw DataXException.asDataXException(
@@ -843,7 +895,9 @@ public class Configuration {
 				child = lists;
 				continue;
 			}
-
+			/**
+			 * 如果参数path既不是map路径也不是list路径就抛出异常
+			 */
 			throw DataXException.asDataXException(
 					CommonErrorCode.RUNTIME_ERROR, String.format(
 							"路径[%s]出现非法值类型[%s]，该异常代表系统编程错误, 请联系DataX开发团队! .",
@@ -937,6 +991,11 @@ public class Configuration {
 				"该异常代表系统编程错误, 请联系DataX开发团队 !");
 	}
 
+	/**
+	 *
+	 * @param path 对象路径参数
+	 * @return 返回路径的对象
+	 */
 	private Object findObject(final String path) {
 		boolean isRootQuery = StringUtils.isBlank(path);
 		if (isRootQuery) {
@@ -1032,6 +1091,10 @@ public class Configuration {
 		return Arrays.asList(StringUtils.split(split(path), "."));
 	}
 
+	/**
+	 * 检查路径
+	 * @param path
+	 */
 	private void checkPath(final String path) {
 		if (null == path) {
 			throw new IllegalArgumentException(

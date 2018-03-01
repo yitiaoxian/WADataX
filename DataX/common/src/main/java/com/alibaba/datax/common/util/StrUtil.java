@@ -9,6 +9,10 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * noted by xiao
+ * 读取配置的工具类
+ */
 public class StrUtil {
 
     private final static long KB_IN_BYTES = 1024;
@@ -23,7 +27,7 @@ public class StrUtil {
 
     private static final Pattern VARIABLE_PATTERN = Pattern
             .compile("(\\$)\\{?(\\w+)\\}?");
-
+    //编码的设置
     private static String SYSTEM_ENCODING = System.getProperty("file.encoding");
 
     static {
