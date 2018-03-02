@@ -51,7 +51,13 @@ import java.util.*;
  * 3. 输出JSON，将上述对象转为JSON，要把上述Map的多级key转为树形结构，并输出为JSON <br>
  */
 public class Configuration {
-
+	/**
+	 * noted by xiao
+	 * 2018/3/2
+	 * 1.将配置模块中的异常抛出换为自己的抛出方式？
+	 * 2.熟悉配置的解析，设置的位置，意义？
+	 * 3.dataX的异常错误码的意义？
+	 * /
     /**
      * 对于加密的keyPath，需要记录下来
      * 为的是后面分布式情况下将该值加密后抛到DataXServer中
@@ -1115,6 +1121,10 @@ public class Configuration {
 				"$[");
 	}
 
+	/**
+	 * 检查json格式
+	 * @param json 需要检查的json对象
+	 */
 	private static void checkJSON(final String json) {
 		if (StringUtils.isBlank(json)) {
 			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,

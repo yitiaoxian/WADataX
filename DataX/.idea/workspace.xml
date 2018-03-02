@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e7dc70-c73c-42bb-8556-2927dd0d85aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java" />
-      <change beforePath="$PROJECT_DIR$/core/datax-core.iml" afterPath="$PROJECT_DIR$/core/datax-core.iml" />
-      <change beforePath="$PROJECT_DIR$/otsstreamreader/otsstreamreader.iml" afterPath="$PROJECT_DIR$/otsstreamreader/otsstreamreader.iml" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/txtfilereader/target/" />
     <ignored path="$PROJECT_DIR$/ftpwriter/target/" />
@@ -63,77 +60,86 @@
       <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="1024" column="31" lean-forward="false" selection-start-line="1024" selection-start-column="21" selection-end-line="1024" selection-end-column="31" />
+            <state relative-caret-position="378">
+              <caret line="1125" column="30" lean-forward="false" selection-start-line="1125" selection-start-column="30" selection-end-line="1125" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1679#1687#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
-                <element signature="e#10151#10181#0" expanded="true" />
-                <element signature="e#10399#10429#0" expanded="true" />
-                <element signature="e#10815#10845#0" expanded="true" />
-                <element signature="e#11579#11594#0" expanded="true" />
-                <element signature="e#11787#11817#0" expanded="true" />
-                <element signature="e#12053#12083#0" expanded="true" />
-                <element signature="e#12285#12296#0" expanded="true" />
-                <element signature="e#12462#12492#0" expanded="true" />
-                <element signature="e#13063#13093#0" expanded="true" />
-                <element signature="e#13316#13339#0" expanded="true" />
-                <element signature="e#13893#13923#0" expanded="true" />
-                <element signature="e#15065#15073#0" expanded="true" />
-                <element signature="e#16262#16263#0" expanded="true" />
-                <element signature="e#16289#16290#0" expanded="true" />
-                <element signature="e#16353#16354#0" expanded="true" />
-                <element signature="e#16413#16414#0" expanded="true" />
-                <element signature="e#17516#17517#0" expanded="true" />
-                <element signature="e#17575#17576#0" expanded="true" />
-                <element signature="e#17579#17609#1" expanded="true" />
-                <element signature="e#18529#18530#0" expanded="true" />
-                <element signature="e#18552#18553#0" expanded="true" />
-                <element signature="e#19050#19080#0" expanded="true" />
-                <element signature="e#19333#19341#0" expanded="true" />
-                <element signature="e#19582#19598#0" expanded="true" />
-                <element signature="e#20632#20648#0" expanded="true" />
-                <element signature="e#20788#20796#0" expanded="true" />
-                <element signature="e#21227#21257#1" expanded="true" />
-                <element signature="e#23918#23948#0" expanded="true" />
-                <element signature="e#24494#24528#0" expanded="true" />
-                <element signature="e#25366#25367#0" expanded="true" />
-                <element signature="e#25420#25421#0" expanded="true" />
-                <element signature="e#25469#25470#0" expanded="true" />
-                <element signature="e#25532#25533#0" expanded="true" />
-                <element signature="e#25577#25578#0" expanded="true" />
+                <element signature="e#1913#1914#0" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#16377#16378#0" expanded="true" />
+                <element signature="e#16404#16405#0" expanded="true" />
+                <element signature="e#16468#16469#0" expanded="true" />
+                <element signature="e#16528#16529#0" expanded="true" />
+                <element signature="e#17631#17632#0" expanded="true" />
+                <element signature="e#17690#17691#0" expanded="true" />
+                <element signature="e#18644#18645#0" expanded="true" />
+                <element signature="e#18667#18668#0" expanded="true" />
+                <element signature="e#25481#25482#0" expanded="true" />
+                <element signature="e#25535#25536#0" expanded="true" />
+                <element signature="e#25584#25585#0" expanded="true" />
                 <element signature="e#25647#25648#0" expanded="true" />
-                <element signature="e#25863#25864#0" expanded="true" />
-                <element signature="e#25913#25914#0" expanded="true" />
-                <element signature="e#25968#25969#0" expanded="true" />
-                <element signature="e#26032#26033#0" expanded="true" />
-                <element signature="e#26436#26463#0" expanded="true" />
-                <element signature="e#27177#27178#0" expanded="true" />
-                <element signature="e#27216#27217#0" expanded="true" />
-                <element signature="e#27261#27262#0" expanded="true" />
-                <element signature="e#27291#27292#0" expanded="true" />
+                <element signature="e#25692#25693#0" expanded="true" />
+                <element signature="e#25762#25763#0" expanded="true" />
+                <element signature="e#25978#25979#0" expanded="true" />
+                <element signature="e#26028#26029#0" expanded="true" />
+                <element signature="e#26083#26084#0" expanded="true" />
+                <element signature="e#26147#26148#0" expanded="true" />
+                <element signature="e#27343#27344#0" expanded="true" />
+                <element signature="e#27382#27383#0" expanded="true" />
+                <element signature="e#27427#27428#0" expanded="true" />
+                <element signature="e#27457#27458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReader.java">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="176">
+              <caret line="211" column="25" lean-forward="true" selection-start-line="211" selection-start-column="25" selection-end-line="211" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoryChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/transport/channel/memory/MemoryChannel.java">
+      <file leaf-file-name="ConfigParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="324">
+              <caret line="107" column="72" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataXException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/DataXException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/ExceptionTracker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxtFileReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/txtfilereader/src/main/java/com/alibaba/datax/plugin/reader/txtfilereader/TxtFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="95" column="54" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -142,7 +148,7 @@
       <file leaf-file-name="ExecuteMode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/ExecuteMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-202">
               <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
@@ -152,8 +158,8 @@
       <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#279#280#0" expanded="true" />
                 <element signature="e#313#314#0" expanded="true" />
@@ -162,16 +168,6 @@
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetryUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/RetryUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,6 +196,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/otsstreamreader/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
       </list>
     </option>
@@ -249,8 +246,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,19 +260,102 @@
             <path>
               <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="SearchEverywhereHistoryKey" value="db&#9;PSI&#9;JAVA://com.alibaba.datax.plugin.rdbms.util.DBUtil&#10;confi&#9;FILE&#9;file://E:/DataX/DataX/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
+    <property name="SearchEverywhereHistoryKey" value="en&#9;FILE&#9;file://E:/DataX/DataX/core/src/main/java/com/alibaba/datax/core/Engine.java&#10;db&#9;PSI&#9;JAVA://com.alibaba.datax.plugin.rdbms.util.DBUtil&#10;confi&#9;FILE&#9;file://E:/DataX/DataX/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -426,7 +508,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23122318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23444206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -479,41 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/container/CoreConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3902">
-          <caret line="156" column="42" lean-forward="false" selection-start-line="156" selection-start-column="38" selection-end-line="156" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/core/RecordProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/OTSStreamReaderSlaveProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="220" column="13" lean-forward="true" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/core/MultiVerModeRecordSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/config/OTSStreamReaderConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/config/OTSStreamReaderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -581,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,14 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3861">
-          <caret line="168" column="37" lean-forward="false" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/Validate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3132">
@@ -660,21 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1053">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,61 +767,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/RetryUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        <state relative-caret-position="5454">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/transport/channel/memory/MemoryChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="378">
           <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumStrVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/ExecuteMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -809,15 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/DataXException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,14 +804,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-891">
           <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="729">
+          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -851,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="318" column="39" lean-forward="false" selection-start-line="318" selection-start-column="19" selection-end-line="318" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9112">
           <caret line="383" column="31" lean-forward="false" selection-start-line="383" selection-start-column="31" selection-end-line="383" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,63 +841,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumStrVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/ExecuteMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="107" column="72" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txtfilereader/src/main/java/com/alibaba/datax/plugin/reader/txtfilereader/TxtFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="95" column="54" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/DataXException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/ExceptionTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="211" column="25" lean-forward="true" selection-start-line="211" selection-start-column="25" selection-end-line="211" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/CommonErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="1024" column="31" lean-forward="false" selection-start-line="1024" selection-start-column="21" selection-end-line="1024" selection-end-column="31" />
+        <state relative-caret-position="378">
+          <caret line="1125" column="30" lean-forward="false" selection-start-line="1125" selection-start-column="30" selection-end-line="1125" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1679#1687#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#10151#10181#0" expanded="true" />
-            <element signature="e#10399#10429#0" expanded="true" />
-            <element signature="e#10815#10845#0" expanded="true" />
-            <element signature="e#11579#11594#0" expanded="true" />
-            <element signature="e#11787#11817#0" expanded="true" />
-            <element signature="e#12053#12083#0" expanded="true" />
-            <element signature="e#12285#12296#0" expanded="true" />
-            <element signature="e#12462#12492#0" expanded="true" />
-            <element signature="e#13063#13093#0" expanded="true" />
-            <element signature="e#13316#13339#0" expanded="true" />
-            <element signature="e#13893#13923#0" expanded="true" />
-            <element signature="e#15065#15073#0" expanded="true" />
-            <element signature="e#16262#16263#0" expanded="true" />
-            <element signature="e#16289#16290#0" expanded="true" />
-            <element signature="e#16353#16354#0" expanded="true" />
-            <element signature="e#16413#16414#0" expanded="true" />
-            <element signature="e#17516#17517#0" expanded="true" />
-            <element signature="e#17575#17576#0" expanded="true" />
-            <element signature="e#17579#17609#1" expanded="true" />
-            <element signature="e#18529#18530#0" expanded="true" />
-            <element signature="e#18552#18553#0" expanded="true" />
-            <element signature="e#19050#19080#0" expanded="true" />
-            <element signature="e#19333#19341#0" expanded="true" />
-            <element signature="e#19582#19598#0" expanded="true" />
-            <element signature="e#20632#20648#0" expanded="true" />
-            <element signature="e#20788#20796#0" expanded="true" />
-            <element signature="e#21227#21257#1" expanded="true" />
-            <element signature="e#23918#23948#0" expanded="true" />
-            <element signature="e#24494#24528#0" expanded="true" />
-            <element signature="e#25366#25367#0" expanded="true" />
-            <element signature="e#25420#25421#0" expanded="true" />
-            <element signature="e#25469#25470#0" expanded="true" />
-            <element signature="e#25532#25533#0" expanded="true" />
-            <element signature="e#25577#25578#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#16377#16378#0" expanded="true" />
+            <element signature="e#16404#16405#0" expanded="true" />
+            <element signature="e#16468#16469#0" expanded="true" />
+            <element signature="e#16528#16529#0" expanded="true" />
+            <element signature="e#17631#17632#0" expanded="true" />
+            <element signature="e#17690#17691#0" expanded="true" />
+            <element signature="e#18644#18645#0" expanded="true" />
+            <element signature="e#18667#18668#0" expanded="true" />
+            <element signature="e#25481#25482#0" expanded="true" />
+            <element signature="e#25535#25536#0" expanded="true" />
+            <element signature="e#25584#25585#0" expanded="true" />
             <element signature="e#25647#25648#0" expanded="true" />
-            <element signature="e#25863#25864#0" expanded="true" />
-            <element signature="e#25913#25914#0" expanded="true" />
-            <element signature="e#25968#25969#0" expanded="true" />
-            <element signature="e#26032#26033#0" expanded="true" />
-            <element signature="e#26436#26463#0" expanded="true" />
-            <element signature="e#27177#27178#0" expanded="true" />
-            <element signature="e#27216#27217#0" expanded="true" />
-            <element signature="e#27261#27262#0" expanded="true" />
-            <element signature="e#27291#27292#0" expanded="true" />
+            <element signature="e#25692#25693#0" expanded="true" />
+            <element signature="e#25762#25763#0" expanded="true" />
+            <element signature="e#25978#25979#0" expanded="true" />
+            <element signature="e#26028#26029#0" expanded="true" />
+            <element signature="e#26083#26084#0" expanded="true" />
+            <element signature="e#26147#26148#0" expanded="true" />
+            <element signature="e#27343#27344#0" expanded="true" />
+            <element signature="e#27382#27383#0" expanded="true" />
+            <element signature="e#27427#27428#0" expanded="true" />
+            <element signature="e#27457#27458#0" expanded="true" />
           </folding>
         </state>
       </provider>
