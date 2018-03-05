@@ -8,6 +8,8 @@ import com.wangankeji.datax.common.util.WAErrorCode;
  * 枚举错误码
  */
 public enum  EnumWAErrorCode implements WAErrorCode{
+
+    //TODO 可以增加异常信息的种类
     /**
      * 用于描述配置文件配置错误的信息
      */
@@ -38,6 +40,10 @@ public enum  EnumWAErrorCode implements WAErrorCode{
         this.code = code;
         this.describe = describe;
     }
+
+    /**
+     * @return 返回错误码
+     */
     @Override
     public String getWACode() {
         return this.code;
@@ -49,7 +55,7 @@ public enum  EnumWAErrorCode implements WAErrorCode{
     }
 
     /**
-     *
+     * 和原本的datax异常输出一样
      * @return 错误异常的信息格式化输出
      */
     @Override

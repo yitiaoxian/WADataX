@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e7dc70-c73c-42bb-8556-2927dd0d85aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/txtfilereader/target/" />
     <ignored path="$PROJECT_DIR$/ftpwriter/target/" />
@@ -57,15 +60,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="1194" column="61" lean-forward="false" selection-start-line="1194" selection-start-column="61" selection-end-line="1194" selection-end-column="61" />
+            <state relative-caret-position="319">
+              <caret line="1157" column="38" lean-forward="false" selection-start-line="1157" selection-start-column="26" selection-end-line="1157" selection-end-column="38" />
               <folding>
-                <element signature="e#30573#30574#0" expanded="true" />
-                <element signature="e#30618#30619#0" expanded="true" />
-                <element signature="e#30648#30649#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1799#1807#0" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#25810#25811#0" expanded="true" />
+                <element signature="e#25864#25865#0" expanded="true" />
+                <element signature="e#25913#25914#0" expanded="true" />
+                <element signature="e#25976#25977#0" expanded="true" />
+                <element signature="e#26021#26022#0" expanded="true" />
+                <element signature="e#26091#26092#0" expanded="true" />
+                <element signature="e#26307#26308#0" expanded="true" />
+                <element signature="e#26357#26358#0" expanded="true" />
+                <element signature="e#26412#26413#0" expanded="true" />
+                <element signature="e#26476#26477#0" expanded="true" />
+                <element signature="e#27717#27718#0" expanded="true" />
+                <element signature="e#27756#27757#0" expanded="true" />
+                <element signature="e#27801#27802#0" expanded="true" />
+                <element signature="e#27831#27832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,13 +92,22 @@
       <file leaf-file-name="EnumWAErrorCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="1269">
+              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WADataXExcption.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,23 +116,9 @@
       <file leaf-file-name="WAErrorCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="567">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WADataXExcption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,11 +136,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>datax</find>
-      <find>SNAPSHOT</find>
       <find>tar</find>
       <find>jdbcUrl</find>
       <find>DataXException</find>
+      <find>EnumWAErrorCode</find>
+      <find>Configuration</find>
+      <find>DataXExcption</find>
+      <find>asDataXException</find>
+      <find>ErrorCode</find>
+      <find>snaps</find>
+      <find>SNAPSHOT</find>
+      <find>datax-common</find>
+      <find>wad</find>
+      <find>datax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,12 +166,13 @@
         <option value="$PROJECT_DIR$/otsstreamreader/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WAErrorCode.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/ExceptionTracker.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" />
       </list>
     </option>
   </component>
@@ -263,27 +285,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataX" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataX" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="excption" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,14 +322,6 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataX" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -357,6 +350,132 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datax" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="meta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datax" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodbwriter" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datax-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataX" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlreader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -515,12 +634,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2671674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -563,363 +682,72 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="143" column="24" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="69" column="54" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="192" column="29" lean-forward="false" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.46.sec01/fastjson-1.1.46.sec01-sources.jar!/com/alibaba/fastjson/parser/JSONScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9326">
-          <caret line="203" column="51" lean-forward="false" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/Validate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="133" column="23" lean-forward="false" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigurationValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReaderErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/conf/core.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodbreader/src/main/java/com/alibaba/datax/plugin/reader/mongodbreader/MongoDBReaderErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodbreader/src/main/java/com/alibaba/datax/plugin/reader/mongodbreader/MongoDBReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txtfilereader/doc/txtfilereader.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/AbstractJobPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/AbstractPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/AbstractTaskPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/RetryUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5454">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/transport/channel/memory/MemoryChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/datax/datax/bin/datax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin-rdbms-util/src/main/java/com/alibaba/datax/plugin/rdbms/reader/CommonRdbmsReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txtfilewriter/doc/txtfilewriter.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlreader/doc/mysqlreader.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="318" column="39" lean-forward="false" selection-start-line="318" selection-start-column="19" selection-end-line="318" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.46.sec01/fastjson-1.1.46.sec01-sources.jar!/com/alibaba/fastjson/JSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9112">
-          <caret line="383" column="31" lean-forward="false" selection-start-line="383" selection-start-column="31" selection-end-line="383" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2038">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin-rdbms-util/src/main/java/com/alibaba/datax/plugin/rdbms/util/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumStrVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/ExecuteMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5022">
-          <caret line="211" column="25" lean-forward="false" selection-start-line="211" selection-start-column="25" selection-end-line="211" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/common/excption/util/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/common/excption/WADataXExcption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/common/excption/util/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/base/BaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="107" column="72" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txtfilereader/src/main/java/com/alibaba/datax/plugin/reader/txtfilereader/TxtFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="95" column="54" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/ExceptionTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/DataXException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#1475#1476#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/drdswriter/doc/drdswriter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="756">
+            <caret line="76" column="45" lean-forward="false" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            <folding>
+              <marker date="1517838315000" expanded="true" signature="694:2824" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="707:2822" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="728:805" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="751:795" ph="{&quot;channel&quot;: 1...}" />
+              <marker date="1517838315000" expanded="true" signature="826:2816" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="840:2806" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="869:1905" ph="{&quot;name&quot;: &quot;streamreader&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="948:1887" ph="{&quot;sliceRecordCount&quot;: 1000...}" />
+              <marker date="1517838315000" expanded="true" signature="985:1815" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="1015:1145" ph="{&quot;value&quot;: &quot;DataX&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="1175:1304" ph="{&quot;value&quot;: 19880808...}" />
+              <marker date="1517838315000" expanded="true" signature="1334:1476" ph="{&quot;value&quot;: &quot;1988-08-08 08:08:08&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="1506:1631" ph="{&quot;value&quot;: true...}" />
+              <marker date="1517838315000" expanded="true" signature="1661:1789" ph="{&quot;value&quot;: &quot;test&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="1933:2792" ph="{&quot;name&quot;: &quot;drdswriter&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="2010:2774" ph="{&quot;writeMode&quot;: &quot;insert&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="2181:2277" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="2313:2387" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="2427:2752" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="2457:2726" ph="{&quot;jdbcUrl&quot;: &quot;jdbc:mysql://127.0.0.1:3306/datax?useUnicode=true&amp;characterEncoding=gbk&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="2618:2696" ph="[...]" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -931,61 +759,454 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="81">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2619#2620#0" expanded="false" />
+            <element signature="e#2676#2677#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/bin/datax.py">
+    <entry file="file://$PROJECT_DIR$/drdsreader/src/main/resources/plugin_job_template.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2835">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drdsreader/src/main/assembly/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drdsreader/src/main/resources/plugin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/doc/ftpreader.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-4941">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1517838315000" expanded="true" signature="611:2623" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="643:2621" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="664:741" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="687:731" ph="{&quot;channel&quot;: 2...}" />
+              <marker date="1517838315000" expanded="true" signature="762:2615" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="776:2605" ph="{...}" />
+              <marker date="1517838315000" expanded="true" signature="804:2233" ph="{&quot;name&quot;: &quot;ftpreader&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="880:2215" ph="{&quot;protocol&quot;: &quot;sftp&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="1124:1216" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="1252:2101" ph="[...]" />
+              <marker date="1517838315000" expanded="true" signature="1282:1404" ph="{&quot;index&quot;: 0...}" />
+              <marker date="1517838315000" expanded="true" signature="1434:1559" ph="{&quot;index&quot;: 1...}" />
+              <marker date="1517838315000" expanded="true" signature="1589:1713" ph="{&quot;index&quot;: 2...}" />
+              <marker date="1517838315000" expanded="true" signature="1743:1867" ph="{&quot;index&quot;: 3...}" />
+              <marker date="1517838315000" expanded="true" signature="1897:2075" ph="{&quot;index&quot;: 4...}" />
+              <marker date="1517838315000" expanded="true" signature="2261:2591" ph="{&quot;name&quot;: &quot;ftpWriter&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="2337:2573" ph="{&quot;path&quot;: &quot;/home/hanfa.shf/ftpReaderTest/result&quot;...}" />
+              <marker date="1517838315000" expanded="true" signature="4102:4188" ph="{&quot;type&quot;: &quot;long&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/spi/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/SftpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2403">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpReaderErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/RecordSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/element/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/RecordReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/PluginCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/JobPluginCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/plugin/AbstractJobPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReaderErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlwriter/src/main/java/com/alibaba/datax/plugin/writer/mysqlwriter/MysqlWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/exception/DataXException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ClassSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresqlwriter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresqlreader/src/main/java/com/alibaba/datax/plugin/reader/postgresqlreader/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresqlreader/src/main/java/com/alibaba/datax/plugin/reader/postgresqlreader/PostgresqlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin-rdbms-util/src/main/java/com/alibaba/datax/plugin/rdbms/reader/util/OriginalConfPretreatmentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin-rdbms-util/src/main/java/com/alibaba/datax/plugin/rdbms/util/DataBaseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1044#1045#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/HostUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/ListUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/RangeSplitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1647">
+        <state relative-caret-position="27">
           <caret line="120" column="50" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/RetryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/StrUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256">
+        <state relative-caret-position="27">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlreader/src/main/java/com/alibaba/datax/plugin/reader/mysqlreader/MysqlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodbwriter/src/main/java/com/alibaba/datax/plugin/writer/mongodbwriter/MongoDBWriterErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodbwriter/src/main/java/com/alibaba/datax/plugin/writer/mongodbwriter/MongoDBWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6295">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/FilterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodbwriter/src/main/java/com/alibaba/datax/plugin/writer/mongodbwriter/util/MongoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar!/org/apache/commons/lang3/CharUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="171" column="23" lean-forward="false" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.46.sec01/fastjson-1.1.46.sec01-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="e#3745#3746#0" expanded="false" />
+            <element signature="e#3803#3804#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="1194" column="61" lean-forward="false" selection-start-line="1194" selection-start-column="61" selection-end-line="1194" selection-end-column="61" />
+        <state relative-caret-position="319">
+          <caret line="1157" column="38" lean-forward="false" selection-start-line="1157" selection-start-column="26" selection-end-line="1157" selection-end-column="38" />
           <folding>
-            <element signature="e#30573#30574#0" expanded="true" />
-            <element signature="e#30618#30619#0" expanded="true" />
-            <element signature="e#30648#30649#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#1807#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#25810#25811#0" expanded="true" />
+            <element signature="e#25864#25865#0" expanded="true" />
+            <element signature="e#25913#25914#0" expanded="true" />
+            <element signature="e#25976#25977#0" expanded="true" />
+            <element signature="e#26021#26022#0" expanded="true" />
+            <element signature="e#26091#26092#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26357#26358#0" expanded="true" />
+            <element signature="e#26412#26413#0" expanded="true" />
+            <element signature="e#26476#26477#0" expanded="true" />
+            <element signature="e#27717#27718#0" expanded="true" />
+            <element signature="e#27756#27757#0" expanded="true" />
+            <element signature="e#27801#27802#0" expanded="true" />
+            <element signature="e#27831#27832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="1081" column="0" lean-forward="true" selection-start-line="1081" selection-start-column="0" selection-end-line="1081" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
           </folding>
         </state>
       </provider>

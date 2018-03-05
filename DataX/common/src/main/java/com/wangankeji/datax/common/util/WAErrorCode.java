@@ -3,7 +3,7 @@ package com.wangankeji.datax.common.util;
 /**
  * author xiao
  * 2018/3/5
- * 异常错误码的接口
+ * 自定义的异常错误码的接口
  */
 public interface WAErrorCode {
     /***
