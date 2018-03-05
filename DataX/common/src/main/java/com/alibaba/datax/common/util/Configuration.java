@@ -5,6 +5,9 @@ import com.alibaba.datax.common.exception.DataXException;
 import com.alibaba.datax.common.spi.ErrorCode;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.wangankeji.datax.common.excption.EnumWAErrorCode;
+import com.wangankeji.datax.common.excption.WADataXExcption;
+import com.wangankeji.datax.common.util.WAErrorCode;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.CharUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -84,7 +87,9 @@ public class Configuration {
 		try {
 			return new Configuration(json);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					e);
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
 					e);
 		}
 
@@ -101,16 +106,23 @@ public class Configuration {
 			/**
 			 * 抛出文件未找到异常
 			 */
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					String.format("配置信息错误，您提供的配置文件[%s]不存在. 请检查您的配置文件.", file.getAbsolutePath()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
 					String.format("配置信息错误，您提供的配置文件[%s]不存在. 请检查您的配置文件.", file.getAbsolutePath()));
 		} catch (IOException e) {
 			/**
 			 * 抛出的IO异常，linux下的配置文件的权限
 			 */
-			throw DataXException.asDataXException(
-					CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.CONFIG_ERROR,
+//					String.format("配置信息错误. 您提供配置文件[%s]读取失败，错误原因: %s. 请检查您的配置文件的权限设置.",
+//							file.getAbsolutePath(), e));
+			throw WADataXExcption.WAErrorExcptionInfo(
+					EnumWAErrorCode.CONFIG_FILE_ERROR,
 					String.format("配置信息错误. 您提供配置文件[%s]读取失败，错误原因: %s. 请检查您的配置文件的权限设置.",
-							file.getAbsolutePath(), e));
+							file.getAbsolutePath(), e)
+			);
 		}
 	}
 
@@ -124,7 +136,9 @@ public class Configuration {
 			 */
 			return Configuration.from(IOUtils.toString(is));
 		} catch (IOException e) {
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					String.format("请检查您的配置文件. 您提供的配置文件读取失败，错误原因: %s. 请检查您的配置文件的权限设置.", e));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
 					String.format("请检查您的配置文件. 您提供的配置文件读取失败，错误原因: %s. 请检查您的配置文件的权限设置.", e));
 		}
 	}
@@ -149,7 +163,9 @@ public class Configuration {
 			/**
 			 * 必须的字段参数
 			 */
-			throw DataXException.asDataXException(errorCode,
+//			throw DataXException.asDataXException(errorCode,
+//					String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILENOTFINISH,
 					String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
 		}
 
@@ -174,8 +190,10 @@ public class Configuration {
     public Boolean getNecessaryBool(String key, ErrorCode errorCode) {
         Boolean value = this.getBool(key);
         if (value == null) {
-            throw DataXException.asDataXException(errorCode,
-                    String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
+//            throw DataXException.asDataXException(errorCode,
+//                    String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILENOTFINISH,
+					String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
         }
 
         return value;
@@ -272,8 +290,11 @@ public class Configuration {
 		try {
 			return CharUtils.toChar(result);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.CONFIG_ERROR,
+//					String.format("任务读取配置文件出错. 因为配置文件路径[%s] 值非法，期望是字符类型: %s. 请检查您的配置并作出修改.", path,
+//							e.getMessage()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
 					String.format("任务读取配置文件出错. 因为配置文件路径[%s] 值非法，期望是字符类型: %s. 请检查您的配置并作出修改.", path,
 							e.getMessage()));
 		}
@@ -307,7 +328,10 @@ public class Configuration {
 		} else if ("false".equalsIgnoreCase(result)) {
 			return Boolean.FALSE;
 		} else {
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					String.format("您提供的配置信息有误，因为从[%s]获取的值[%s]无法转换为bool类型. 请检查源表的配置并且做出相应的修改.",
+//							path, result));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
 					String.format("您提供的配置信息有误，因为从[%s]获取的值[%s]无法转换为bool类型. 请检查源表的配置并且做出相应的修改.",
 							path, result));
 		}
@@ -341,8 +365,11 @@ public class Configuration {
 		try {
 			return Integer.valueOf(result);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.CONFIG_ERROR,
+//					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是整数类型: %s. 请检查您的配置并作出修改.", path,
+//							e.getMessage()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
 					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是整数类型: %s. 请检查您的配置并作出修改.", path,
 							e.getMessage()));
 		}
@@ -375,8 +402,11 @@ public class Configuration {
 		try {
 			return Long.valueOf(result);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.CONFIG_ERROR,
+//					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是整数类型: %s. 请检查您的配置并作出修改.", path,
+//							e.getMessage()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
 					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是整数类型: %s. 请检查您的配置并作出修改.", path,
 							e.getMessage()));
 		}
@@ -409,8 +439,11 @@ public class Configuration {
 		try {
 			return Double.valueOf(result);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.CONFIG_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.CONFIG_ERROR,
+//					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是浮点类型: %s. 请检查您的配置并作出修改.", path,
+//							e.getMessage()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
 					String.format("任务读取配置文件出错. 配置文件路径[%s] 值非法, 期望是浮点类型: %s. 请检查您的配置并作出修改.", path,
 							e.getMessage()));
 		}
@@ -664,8 +697,10 @@ public class Configuration {
 	public Object remove(final String path) {
 		final Object result = this.get(path);
 		if (null == result) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.RUNTIME_ERROR,
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.RUNTIME_ERROR,
+//					String.format("配置文件对应Key[%s]并不存在，该情况是代码编程错误. 请联系DataX团队的同学.", path));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
 					String.format("配置文件对应Key[%s]并不存在，该情况是代码编程错误. 请联系DataX团队的同学.", path));
 		}
 
@@ -816,8 +851,11 @@ public class Configuration {
 			return;
 		}
 
-		throw DataXException.asDataXException(CommonErrorCode.RUNTIME_ERROR,
-				String.format("值[%s]无法适配您提供[%s]， 该异常代表系统编程错误, 请联系DataX开发团队!",
+//		throw DataXException.asDataXException(CommonErrorCode.RUNTIME_ERROR,
+//				String.format("值[%s]无法适配您提供[%s]， 该异常代表系统编程错误, 请联系DataX开发团队!",
+//						ToStringBuilder.reflectionToString(object), path));
+		throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.SYS_RUN_ERROR,
+				String.format("值[%s]无法适配您提供[%s]， 系统编程错误, 请联系开发人员!",
 						ToStringBuilder.reflectionToString(object), path));
 	}
 
@@ -873,9 +911,11 @@ public class Configuration {
 	 */
 	Object buildObject(final List<String> paths, final Object object) {
 		if (null == paths) {
-			throw DataXException.asDataXException(
-					CommonErrorCode.RUNTIME_ERROR,
-					"Path不能为null，该异常代表系统编程错误, 请联系DataX开发团队 !");
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.RUNTIME_ERROR,
+//					"Path不能为null，该异常代表系统编程错误, 请联系DataX开发团队 !");
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
+					"path路径不能为null，系统编译错误，请联系开发人员 ！");
 		}
 
 		if (1 == paths.size() && StringUtils.isBlank(paths.get(0))) {
@@ -904,9 +944,13 @@ public class Configuration {
 			/**
 			 * 如果参数path既不是map路径也不是list路径就抛出异常
 			 */
-			throw DataXException.asDataXException(
-					CommonErrorCode.RUNTIME_ERROR, String.format(
-							"路径[%s]出现非法值类型[%s]，该异常代表系统编程错误, 请联系DataX开发团队! .",
+//			throw DataXException.asDataXException(
+//					CommonErrorCode.RUNTIME_ERROR, String.format(
+//							"路径[%s]出现非法值类型[%s]，该异常代表系统编程错误, 请联系DataX开发团队! .",
+//							StringUtils.join(paths, "."), path));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_PATH_ERROR,
+					String.format(
+							"路径[%s]出现非法值类型[%s]，该异常代表系统编程错误, 请联系开发人员! .",
 							StringUtils.join(paths, "."), path));
 		}
 
@@ -993,8 +1037,10 @@ public class Configuration {
 			return lists;
 		}
 
-		throw DataXException.asDataXException(CommonErrorCode.RUNTIME_ERROR,
-				"该异常代表系统编程错误, 请联系DataX开发团队 !");
+//		throw DataXException.asDataXException(CommonErrorCode.RUNTIME_ERROR,
+//				"该异常代表系统编程错误, 请联系DataX开发团队 !");
+		throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.SYS_RUN_ERROR,
+				"系统编程错误，请联系开发人员");
 	}
 
 	/**
@@ -1127,8 +1173,10 @@ public class Configuration {
 	 */
 	private static void checkJSON(final String json) {
 		if (StringUtils.isBlank(json)) {
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
-					"配置信息错误. 因为您提供的配置信息不是合法的JSON格式, JSON不能为空白. 请按照标准json格式提供配置信息. ");
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					"配置信息错误. 因为您提供的配置信息不是合法的JSON格式, JSON不能为空白. 请按照标准json格式提供配置信息. ");
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
+					"配置信息错误.原因是提供的配置信息不是正确的JSON格式.请按照标准json格式提供配置信息");
 		}
 	}
 
@@ -1136,8 +1184,11 @@ public class Configuration {
 		try {
 			this.root = JSON.parse(json);
 		} catch (Exception e) {
-			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
-					String.format("配置信息错误. 您提供的配置信息不是合法的JSON格式: %s . 请按照标准json格式提供配置信息. ", e.getMessage()));
+//			throw DataXException.asDataXException(CommonErrorCode.CONFIG_ERROR,
+//					String.format("配置信息错误. 您提供的配置信息不是合法的JSON格式: %s . 请按照标准json格式提供配置信息. ", e.getMessage()));
+			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
+					String.format("配置信息错误. 您提供的配置信息不是合法的JSON格式: %s ." +
+							" 请按照标准json格式提供配置信息. ", e.getMessage()));
 		}
 	}
 

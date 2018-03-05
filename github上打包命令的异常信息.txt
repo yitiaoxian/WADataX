@@ -1,0 +1,16 @@
+ÃüÁî£ºmvn -U clean package assemblyassembly -Dmaven.test.skip=true
+
+
+
+[ERROR] Unknown lifecycle phase ".test.skip=true". You must specify a valid lifecycle phase or a g
+gin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available
+validate, initialize, generate-sources, process-sources, generate-resources, process-resources, co
+, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, te
+st-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integrati
+ll, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following ar
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException

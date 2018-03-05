@@ -1,0 +1,2 @@
+2018年3月5日11:33:28
+cmd 中使用mvn -U clean package assemblyassembly
