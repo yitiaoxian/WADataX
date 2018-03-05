@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e7dc70-c73c-42bb-8556-2927dd0d85aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/alibaba/datax/common/util/Configuration.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/EnumWAErrorCode.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/excption/WADataXExcption.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/wangankeji/datax/common/util/WAErrorCode.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" />
-    </list>
+    <list default="true" id="f4e7dc70-c73c-42bb-8556-2927dd0d85aa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/txtfilereader/target/" />
     <ignored path="$PROJECT_DIR$/ftpwriter/target/" />
     <ignored path="$PROJECT_DIR$/hbase11xwriter/target/" />

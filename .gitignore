@@ -1,4 +1,5 @@
 ﻿#忽略部分的项目文件的配置
+*.iml
 DataX/adswriter/target/*
 DataX/common/target/*
 DataX/core/target/*
