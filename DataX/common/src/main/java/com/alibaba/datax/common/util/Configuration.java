@@ -50,6 +50,13 @@ import java.util.*;
  * 2. 返回树形结构，例如 a.b.c.d = "bazhen"，如果返回"a"下的所有元素，实际上是一个Map，需要合并处理 <br>
  * 3. 输出JSON，将上述对象转为JSON，要把上述Map的多级key转为树形结构，并输出为JSON <br>
  */
+
+/**
+ * note by xiao
+ * date :　２０１８－３－１４
+ * 这个类用于读取json的配置文件很方便
+ * //TODO 仔细去看其json读取的处理问题
+ */
 public class Configuration {
 	/**
 	 * noted by xiao
