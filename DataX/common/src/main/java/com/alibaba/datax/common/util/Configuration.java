@@ -1,5 +1,6 @@
 package com.alibaba.datax.common.util;
 
+import com.alibaba.datax.common.exception.ExceptionTracker;
 import com.alibaba.datax.common.spi.ErrorCode;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
@@ -94,8 +95,10 @@ public class Configuration {
 			/**
 			 * 抛出异常
 			 */
+			ExceptionTracker.trace(e);
 			throw WADataXExcption.WAErrorExcptionInfo(EnumWAErrorCode.CONFIG_FILE_ERROR,
 					e);
+
 		}
 
 	}

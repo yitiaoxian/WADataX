@@ -107,6 +107,11 @@ public final class ListUtil {
 
     }
 
+    /**
+     *
+     * @param aList 检查list中值是否一样
+     * @return boolean
+     */
     public static boolean checkIfValueSame(List<Boolean> aList) {
         if (null == aList || aList.isEmpty()) {
             throw new IllegalArgumentException("您提供的作业配置有误, List不能为空.");
@@ -125,6 +130,11 @@ public final class ListUtil {
         }
     }
 
+    /**
+     *
+     * @param aList 转小写
+     * @return
+     */
     public static List<String> valueToLowerCase(List<String> aList) {
         if (null == aList || aList.isEmpty()) {
             throw new IllegalArgumentException("您提供的作业配置有误, List不能为空.");
